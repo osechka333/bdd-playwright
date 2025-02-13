@@ -23,11 +23,10 @@
 
 ### Running Tests
 
-1. To run the tests, use the following command:
-    ```sh
+To run the tests, use the following command:
+   ```sh
     npx bddgen && npx playwright test
-    ```
-
+   ```
 
 ### Approach
 This project uses the Behavior-Driven Development (BDD) approach with Playwright for end-to-end testing. 
