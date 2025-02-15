@@ -4,7 +4,9 @@
     "@types/node": "^22.13.2",
     "playwright-bdd": "^8.1.0"
   },
-  "scripts": {},
+  "scripts": {
+    "e2e": "npx bddgen && npx playwright test"
+  },
   "dependencies": {
     "dotenv": "^16.4.7"
   }
